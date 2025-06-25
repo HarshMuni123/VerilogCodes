@@ -29,7 +29,7 @@ initial begin
 end
 endmodule
 
-// iverilog -o halfadder.out half_adder_combined.v
+// iverilog -o halfadder.out halfadder.v
 // vvp halfadder.out
 
 
