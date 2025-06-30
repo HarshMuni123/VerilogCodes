@@ -55,7 +55,7 @@ Verilog provides different variants of the `case` statement, which affect how un
 
 ```verilog
 always @(*) begin
-  casex (in)
+  casez (in)
     8'b1???????: out = 3'd7;
     8'b01??????: out = 3'd6;
     8'b001?????: out = 3'd5;
